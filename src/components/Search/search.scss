@@ -1,0 +1,28 @@
+.container{
+ margin-left: 40px;
+}
+
+.search-input{
+  height: 30px;
+  width: 300px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  border: 1px solid #E1E8ED;
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 10px;
+}
+
+.fa-search{
+  font-size: 10px;
+  position: absolute;
+  padding: 10px;
+  margin-top: 12px;
+}
+
+.label-classes{
+  font-size: 15px;
+  font-weight: bold;
+}

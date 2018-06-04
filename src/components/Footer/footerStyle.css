@@ -1,0 +1,31 @@
+footer {
+  height: 120px;
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  bottom: 10px;
+  color: #fdb515;
+  text-align: center;
+}
+
+footer img {
+  margin: 20px;
+}
+
+footer div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+
+footer img:hover {
+  cursor: pointer;
+  height: 36px;
+}
+
+@media (max-width: 500px) {
+  footer img {
+    margin: 10px;
+  }
+}

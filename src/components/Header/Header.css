@@ -1,0 +1,99 @@
+.header {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+.header img {
+  height: 65px;
+  padding-left: 24px;
+}
+.header img.integrify:hover {
+  cursor: pointer;
+  height: 70px;
+}
+
+.log {
+  color: white;
+  margin-right: 12px;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  padding-right: 24px;
+  text-decoration: none;
+}
+
+.headerLog {
+  color: white;
+  margin-right: 12px;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  padding-right: 24px;
+}
+
+.log:hover {
+  color: #fdb515;
+  cursor: pointer;
+}
+
+.headerLog:hover {
+  color: #fdb515;
+  cursor: pointer;
+}
+
+.hamburger {
+  color: #fdb515;
+  cursor: pointer;
+  width: 120px;
+  text-align: center;
+  position: relative;
+}
+
+.hamburger img {
+  height: 50px;
+}
+
+.hamburger ul {
+  color: white;
+  list-style: none;
+  position: absolute;
+  right: 0;
+  background-color: black;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+ul:hover {
+  color: #fdb515;
+}
+
+.hamburger li {
+  padding: 12px 0;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .header img {
+    height: 50px;
+  }
+
+  ul {
+    top: 40px;
+  }
+  .hamburger img {
+    height: 36px;
+  }
+
+  .headerLog {
+    display: none;
+  }
+}

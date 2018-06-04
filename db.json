@@ -1,0 +1,67 @@
+{
+    "classes": [
+      {
+        "id": "001",
+        "name": "Spring 2018",
+        "participantCount": "10",
+        "currentSprint": "12",
+        "headTeacher": "T001",
+        "graduationDate": "2018-04-01",
+        "plannedSprints": "20",
+        "location": "Helsinki"
+      },
+      {
+        "id": "002",
+        "name": "Summer 2018",
+        "participantCount": "12",
+        "currentSprint": "0",
+        "headTeacher": "T002",
+        "graduationDate": "2018-06-01",
+        "plannedSprints": "20",
+        "location": "Espoo"
+      }
+    ],
+    "accounts": [
+      {
+        "id": "001",
+        "type": "teacher",
+        "email": "jhon@example.com",
+        "githubAuth": true
+      },
+      {
+        "id": "002",
+        "type": "teacher",
+        "email": "jacky@example.com",
+        "githubAuth": true
+      },
+      {
+        "id": "003",
+        "type": "student",
+        "email": "alex@example.com",
+        "githubAuth": true
+      }
+    ],
+    "users": [
+      {
+        "id": "001",
+        "account": "001",
+        "firstName": "John",
+        "lastName": "Doe",
+        "phoneNumber": "+358458904323"
+      },
+      {
+        "id": "002",
+        "account": "002",
+        "firstName": "Jacky",
+        "lastName": "Brown",
+        "phoneNumber": "+358446544323"
+      },
+      {
+        "id": "003",
+        "account": "003",
+        "firstName": "Alex",
+        "lastName": "Smith",
+        "phoneNumber": "+358446544323"
+      }
+    ]
+  }

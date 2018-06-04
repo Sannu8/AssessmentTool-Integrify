@@ -1,1 +1,2 @@
-# AssessmentTool-Integrify
+# Assessment Tool
+A tool for managing ongoing classes

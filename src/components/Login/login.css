@@ -1,0 +1,135 @@
+.login {
+  width: 25%;
+  margin: auto;
+  float: none;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  padding-bottom: 150px;
+}
+.form {
+  display: block;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 10px;
+  line-height: 35px;
+  color: #fdb515;
+  font-size: 0.9rem;
+  border: none;
+  outline: none;
+  border: 1px solid #fdb515;
+  border-radius: 5px;
+  padding-right: 36px;
+  text-indent: 10px;
+}
+::-webkit-input-placeholder {
+  color: #fdb515;
+  font-size: 0.9rem;
+  text-indent: 10px;
+}
+input[type="submit"] {
+  width: 100%;
+  line-height: 35px;
+  background-color: #fdb515;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin: auto;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.username {
+  position: relative;
+  top: -38px;
+  left: 350px;
+  margin: 0px;
+  padding: 0px;
+}
+.password {
+  position: relative;
+  top: -38px;
+  left: 351px;
+  margin: 0px;
+  padding: 0px;
+}
+.tick {
+  width: 16px;
+  height: 16px;
+  visibility: hidden;
+}
+
+.valid {
+  visibility: initial;
+}
+.title {
+  color: #fdb515;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.login {
+  color: #fdb515;
+}
+
+.login:hover {
+  font-size: 20px;
+}
+.loading {
+  display: none;
+}
+.show-loader {
+  opacity: 0.5;
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  position: absolute;
+  left: 787px;
+  top: 407px;
+}
+@keyframes image-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.loading-image {
+  animation: image-spin infinite 10s linear;
+  fill-opacity: 0.5;
+}
+.valid{
+    visibility: initial;
+}
+.title{
+    color: #fdb515;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
+/*Responsive design starts here with 2 breakpoints*/
+@media screen and (max-width: 1250px) {
+  .login {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 34.5%;
+  }
+}
+@media screen and (max-width: 760px) {
+  .login {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 414px) {
+  .login {
+    width: 80%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+  .login-title {
+    margin-bottom: 25px;
+  }
+}

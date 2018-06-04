@@ -1,0 +1,1 @@
+export const classSelector = (state)=> state.userClass;

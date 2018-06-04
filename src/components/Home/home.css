@@ -1,0 +1,55 @@
+.login-container{
+    width:50%;
+    margin: auto;
+    margin-top:150px;
+    display:flex;
+    flex-direction: column;
+}
+.adminlinks{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+button{
+    line-height: 60px;
+    width: 100%;
+    outline: none;
+}
+
+.admin{
+    color: #fdb515;
+    font-size: 0.9rem;
+    font-weight: normal;
+    position: initial;
+    font-family: roboto;
+    float: left;
+    cursor: pointer;
+}
+.signin{
+    color: #fdb515;
+    font-size: 0.9rem;
+    font-weight: normal;
+    position: initial;
+    font-family: roboto;
+    float: right;
+    cursor: pointer;
+}
+.loginMessage{
+    color: red;
+}
+
+  /*Responsive design starts here with 2 breakpoints*/
+@media screen and (max-width:760px) {
+    .login-container{
+        width:50%;
+    }
+
+    }
+    @media screen and (max-width:414px) {
+        .login-container {
+            width: 80%;
+            margin-top: 150px;
+        }
+       
+    }

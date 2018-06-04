@@ -1,0 +1,41 @@
+.loaderContainer{
+    width:30%;
+    height: 200px;
+    border: 0px solid lightsalmon;
+    background-color: transparent;
+    margin: auto;
+    text-align: center;
+    color: lightslategray;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+@keyframes image-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+.loaderImage{
+    width:100px;
+   height:150px;
+   animation: image-spin infinite 10s linear;
+    fill-opacity: 0.1;
+}
+
+
+/*Responsive design starts here with 2 breakpoints*/
+@media screen and (max-width:1000px) {
+    .loaderContainer{
+        font-size: 0.7rem;
+    }
+    }
+@media screen and (max-width:760px) {
+    .loaderContainer{
+        width:51%;
+    }
+    }
+    @media screen and (max-width:414px) {
+        .loaderContainer{
+            width:85%;
+        }
+    }

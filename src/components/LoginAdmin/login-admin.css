@@ -1,0 +1,99 @@
+.login{
+        width:25%;
+        margin: auto;
+        float: none;
+        margin-top: 150px;
+}
+
+.form{
+    display:block;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 10px;
+    line-height: 35px;
+    color:#fdb515;
+    font-size: 0.9rem;
+    border: none;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-right: 36px;
+    text-indent: 10px;
+}
+
+.form:active {
+    border: 1px solid #fdb515;
+}
+::-webkit-input-placeholder{
+    color: lightgrey;
+    font-size: 0.9rem;
+    text-indent: 10px;
+}
+input[type="submit"]{
+    width:100%;
+    line-height: 35px;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin: auto;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    color: #fdb515;
+}
+
+.username{
+    position: relative;
+    top: -38px;
+    left: 351px;
+    margin: 0px;
+    padding: 0px;
+}
+.password{
+    position: relative;
+    top: -38px;
+    left: 351px;
+    margin: 0px;
+    padding: 0px;
+}
+.tick{
+    width: 16px;
+    height: 16px;
+    visibility: hidden;
+}
+
+.valid{
+    visibility: initial;
+}
+.title{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+/*Responsive design starts here with 2 breakpoints*/
+@media screen and (max-width:1250px) {
+    .login{
+        margin-top: 150px;
+        width:34.5%;
+    }
+    }
+@media screen and (max-width:760px) {
+    .login{
+        margin-top: 150px;
+        width:50%;
+    }
+    }
+    @media screen and (max-width:414px) {
+        .login {
+            width: 80%;
+            margin-top: 150px;
+        }
+        .login-title {
+            margin-bottom: 25px;
+        }
+    }

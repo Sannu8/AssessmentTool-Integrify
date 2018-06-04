@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&subset=hebrew,latin-ext,vietnamese');
+.buttonDiv{
+    width: 70%;
+    height: 100px;
+    background-color:transparent;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.primaryButton{
+    width: 100%;
+    line-height: 60px;
+    background-color: #013243;
+    align-self: center;
+    font-size: 1.8rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-weight: 500;
+    font-family:varela round;
+    color: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    outline: none;
+}
+.primaryButton:hover{
+    background-color: #BDC3C7;
+    color: #013243;
+}
+.primaryButton:disabled{
+    background-color: #BDC3C7;
+    color: #013243;
+    cursor: not-allowed;
+}
+
+.secondaryButton{
+    width: 70%;
+    line-height: 50px;
+    background-color: #22313F;
+    align-self: center;
+    font-size: 1.6rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-weight: 500;
+    font-family: Varela Round;
+    color: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    outline: none;
+}
+.secondaryButton:hover{
+    background-color: #BDC3C7;
+    color: #013243;
+}
+.secondaryButton:disabled{
+    background-color: #BDC3C7;
+    color: #013243;
+    cursor: not-allowed;
+}
+
+.secondaryButton-img{
+    width: 40px;
+    line-height: 25px;
+    max-height: 40px;
+    margin-inline-start: 5px;
+    margin-inline-end: 5px;
+}
+
+.tertiaryButton{
+    width: 40%;
+    line-height: 40px;
+    background-color: #6C7A89;
+    align-self: center;
+    font-size: 1.3rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-weight: 500;
+    font-family: Varela Round;
+    color: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    outline: none;
+}
+.tertiaryButton:hover{
+    background-color: #BDC3C7;
+    color: #013243;
+}
+.tertiaryButton:disabled{
+    background-color: #BDC3C7;
+    color: #013243;
+    cursor: not-allowed;
+}
+
+.dangerButton{
+    width: 200px;
+    line-height: 40px;
+    background-color: #96281B;
+    align-self: center;
+    font-size: 1.3rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-weight: 500;
+    font-family: Varela Round;
+    color: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    outline: none;
+}
+.dangerButton:hover{
+    background-color: #C0392B;
+    color: white;
+}
+.dangerButton:disabled{
+    background-color: #BDC3C7;
+    color: #013243;
+    cursor: not-allowed;
+}
+
+/*Responsive design starts here with 2 breakpoints*/
+@media screen and (max-width:760px) {
+    .iconDiv{
+        
+    }
+
+    }
+    @media screen and (max-width:414px) {
+        .iconImg {
+          
+        }
+       
+    }

@@ -1,0 +1,109 @@
+.login-container {
+  width: 30%;
+  margin: auto;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+}
+.adminlinks {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+button {
+  line-height: 60px;
+  width: 100%;
+  outline: none;
+}
+.github {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 6px;
+}
+h1 {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.login-title {
+  margin-bottom: 50px;
+}
+
+.admin {
+  color: #fdb515;
+  font-size: 0.9rem;
+  font-weight: normal;
+  position: initial;
+  font-family: roboto;
+  float: left;
+  cursor: pointer;
+}
+
+.admin:hover {
+  font-size: 20px;
+}
+.signin {
+  color: black;
+  font-size: 0.9rem;
+  font-weight: normal;
+  position: initial;
+  font-family: roboto;
+  float: right;
+  cursor: pointer;
+}
+.button-integrify {
+  background: #000000;
+  color: #fdb515;
+  font-family: roboto;
+  font-size: larger;
+  outline: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.button-integrify {
+  color: white;
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.button-integrify:hover,
+.button-integrify:focus,
+.button-integrify:active,
+.button-integrify.active,
+.open .dropdown-toggle.button-integrify {
+  color: #fdb515;
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.button-integrify:active,
+.button-integrify.active,
+.open .dropdown-toggle.button-integrify {
+  background-image: none;
+}
+
+.button-integrify.active {
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.button-integrify .badge {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+/*Responsive design starts here with 2 breakpoints*/
+@media screen and (max-width: 760px) {
+  .login-container {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 414px) {
+  .login-container {
+    width: 80%;
+    margin-top: 150px;
+  }
+}
